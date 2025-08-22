@@ -1,11 +1,14 @@
-p{
-    color: brown;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.main
-{
-    color:blue;
+.container{
+    margin: 100px;
+    padding: 30px;
+    border: 2px solid black;
+    height: 170px;
+    width: 300px;
+    background-color:beige;
     
-}
-h3{
-    color:brown;
 }
