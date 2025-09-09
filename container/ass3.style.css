@@ -1,0 +1,39 @@
+.container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: #000;
+padding: 10px 0;
+    }
+
+.container .nav-item1,
+.container .nav-item2,
+.container .nav-item3,
+.container .nav-item4,
+.container .nav-item5,
+.container .nav-item6,
+.container .nav-item7,
+.container .nav-item8,
+.container .nav-item9,
+.container .nav-item10,
+.container .nav-item11  {
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+}
+.container i{
+      font-size: 22px;
+      margin-bottom: 4px;
+}
+
+.container .nav-item5:hover{
+    color: yellow;
+}
+/* .continer .nav-item5:nth-child(5) i{
+  color: green;
+} */

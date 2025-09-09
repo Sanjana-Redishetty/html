@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: start;
+  padding: 20px;
+  background: black;
+  width: 100%;
+}
+
+.container .nav-item1,
+.container .nav-item2,
+.container .nav-item3,
+.container .nav-item4,
+.container .nav-item5,
+.container .nav-item6{
+width: 60px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container .nav-item1 {
+  background: white;
+}
+
+.container .nav-item2 {
+  background: white;
+}
+
+.container .nav-item3 {
+  background: white;
+}
+
+.container .nav-item4 {
+  background: white;
+}
+
+.container .nav-item5 {
+  background: white;
+}
+
+.container .nav-item6 {
+  background: white;
+}
+.bi{
+  color: yellow;
+}

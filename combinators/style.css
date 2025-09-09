@@ -1,0 +1,71 @@
+/* .container{
+    background-color: black;
+    color:red;
+}
+.container p{
+    color:aqua;
+}
+.container+div{
+    background-color: aqua;
+    color: blueviolet;
+} */
+
+.grid-container {
+  display: grid;
+  /* Creates four equal-width columns. The 'fr' unit makes them flexible. */
+  grid-template-columns: repeat(4, 1fr);
+  /* Adds spacing between the grid items (cards). */
+  gap: 20px;
+  /* Centers the entire container on the page. */
+  margin: 0 auto;
+  padding: 20px;
+  /* Optional: Set a max-width to prevent the container from getting too wide on large screens. */
+  max-width: 1200px;
+}
+
+.card {
+  /* Aligns text and content to the left within each card. */
+  text-align: left;
+  /* Adds padding inside each card. */
+  padding: 10px;
+}
+
+.card img {
+  /* Makes the image fill the width of its container. */
+  width: 100%;
+  /* Ensures the aspect ratio is maintained. */
+  height: auto;
+  /* Ensures image corners are not rounded, matching the example. */
+  border-radius: 0;
+  /* Ensures image is not distorted. */
+  display: block;
+}
+
+.card h3 {
+  /* Adjusts the font size and margins for the title. */
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  /* Adjusts the font size and color for the description. */
+  font-size: 0.9em;
+  color: #555;
+  margin: 0;
+}
+
+/* Optional: Add media queries for responsiveness on smaller screens */
+@media (max-width: 992px) {
+  .grid-container {
+    /* Changes to 2 columns on tablets */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .grid-container {
+    /* Changes to 1 column on mobile devices */
+    grid-template-columns: 1fr;
+  }
+}
